@@ -1,0 +1,62 @@
+@media screen and (max-width: 1024px) {
+    #timezone {
+        visibility: hidden !important; 
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        display: none !important;
+    }
+    .logo {
+       visibility: hidden !important;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+        display: none !important;
+    }
+    .logo {
+       display:  none !important;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .sidebar {
+        display: none !important;
+    }
+    .logo {
+       display:  none !important;
+    }
+    .Right{
+        display: none !important;
+    }
+    
+    nav {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+    }
+    
+  }
+
+
+ @media screen and (max-width: 350px) {
+    .sidebar {
+        display: none !important;
+    }
+    .logo {
+       display:  none !important;
+    }
+    .Right{
+        display: none !important;
+    }
+    
+    nav {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .monthtitle {
+        display: none !important;
+    }
+  }

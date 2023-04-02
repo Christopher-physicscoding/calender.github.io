@@ -33,3 +33,10 @@
 	cursor: pointer
 	
 }
+
+.year table td:nth-child(1), .year table td:nth-child(7){
+    color:lightslategray
+}
+.year table th:nth-child(1), .year table th:nth-child(7){
+    color : lightslategray
+}
