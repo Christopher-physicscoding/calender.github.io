@@ -1,0 +1,34 @@
+
+.weekedit td {
+    border : 1px solid #dabdbe
+} 
+
+.weekedit td {
+    width: 10em;
+    height: 90px;
+}
+
+.weekedit td:nth-child(1){
+    border: none;
+    width: 45px;
+    vertical-align: text-bottom;
+    transform: translateY(-7px);
+}
+.weekedit {
+    text-align: center;
+}
+#editini {
+	background-color: #f8f8f8;
+}
+#edititu {
+	background-color: #6d6d6d;
+}
+
+#editini:hover {
+	background-color: aquamarine;
+	cursor: pointer
+	
+}
+.weekend {
+	background-color: rgba(245,245,245,255);
+}

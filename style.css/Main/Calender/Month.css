@@ -1,0 +1,57 @@
+.Calender > .april > center> table {
+	width: 80%;
+	height: 80vh;
+	text-align: right;
+	vertical-align: text-top;
+}
+
+.Calender > .april > center> table> thead {
+	width: 30px;
+	height: 40px;
+	text-align: center;
+
+
+}
+.Calender > .april > center> table> tbody {
+	width: 30px;
+	height: 40px;
+	vertical-align: text-top;
+}
+
+.Calender > .april > center> table> tbody > tr > td, .Calender > .april > center> table> thead > th  {
+	width: 14.28%;
+
+}
+
+.Calender > .april > center> table> tbody > tr > td {
+	height: 16.67%;
+}
+.Calender p {
+	text-align: left;
+}
+
+#aprilfoolday {
+	background-color: orange ;
+	color : black;
+}
+
+#GoodFriday{
+	background-color: red;
+	color: black;
+}
+#Easter {
+	background-color: red;
+	color: black;
+}
+
+#Test {
+	background-color: violet;
+	color: black;
+}
+#holiday {
+	background-color: skyblue;
+	color: white;
+}
+.weekend {
+	background-color: rgba(245,245,245,255);
+}

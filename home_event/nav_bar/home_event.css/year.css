@@ -1,0 +1,35 @@
+.year table {
+    text-align: right;
+
+}
+
+.year {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.year {
+    text-align: center;
+}
+
+.year h2 {
+    color: red;
+    font-size: 1em;
+}
+
+.year > div {
+    margin: 20px;
+}
+
+#editini {
+	background-color: #f8f8f8;
+}
+#edititu {
+	background-color: #6d6d6d;
+}
+
+#editini:hover {
+	background-color: aquamarine;
+	cursor: pointer
+	
+}

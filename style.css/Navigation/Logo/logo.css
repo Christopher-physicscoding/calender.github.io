@@ -1,0 +1,92 @@
+.logo {
+	position: relative;
+	width: 23%;
+	display: flex;
+	margin-right: 5px;
+		
+}
+		
+.ring2 {
+    width: 40px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(217,217,217,255);
+	background-color: rgba(217,217,217,255);
+
+}
+
+.ring2::before{
+    content: "";
+    background-image: conic-gradient(
+        cyan 20deg,
+        transparent 120deg
+    );
+    background-color: cyan;
+	height: 15px;
+	width: 15px;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+.ring1 {
+    width: 40px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(217,217,217,255);
+    background-color:rgba(217,217,217,255);
+}
+
+.ring1::before{
+    content: "";
+    background-image: conic-gradient(
+        red 20deg,
+        transparent 120deg
+    );
+    background-color: red;
+	height: 15px;
+	width: 15px;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+.ring3 {
+    width: 40px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(217,217,217,255);;
+    background-color: rgba(217,217,217,255);;
+}
+
+.ring3::before{
+    content: "";
+    background-image: conic-gradient(
+        lime 20deg,
+        transparent 120deg
+    );
+    background-color: lime;
+	height: 15px;
+	width: 15px;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+    
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

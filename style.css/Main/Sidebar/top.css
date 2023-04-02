@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+
+}
+a {
+        text-decoration: none !important;
+}
+.sidebar {
+    width: 16.8%;
+    float: left;
+    background-color: rgba(231,230,228,255);
+    padding: 5px;
+    height: 93vh;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.sidebar  h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.sidebar ul {
+    padding: 10px;
+    padding-top: 0px ;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#red {
+    height: 13px;
+    width: 13px;
+    background-color: red;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+}
+#blue {
+    height: 13px;
+    width: 13px;
+    background-color: brown;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+}
+#violet {
+    height: 13px;
+    width: 13px;
+    background-color: violet;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+} 
+#lime {
+    height: 13px;
+    width: 13px;
+    background-color: lime;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+}
+#yellow {
+    height: 13px;
+    width: 13px;
+    background-color: orange;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+}
+#brown {
+    height: 13px;
+    width: 13px;
+    background-color: skyblue;
+    display: block;
+    transform: translateY(2px) ;
+    border-radius: 2px;
+    margin-right: 10px ;
+}
+
+
+li > a {
+    display: flex;
+}
+ @media screen and (min-width: 1000px) {
+     .sidebar {
+         width: 13.5%;
+     }
+
+  }
+   @media screen and (max-width: 650px) {
+     .sidebar {
+         display: none;
+     }
+
+  }
+   @media screen and (max-width: 1200px) {
+     .sidebar {
+         width: 16%;
+     }
+
+  }
+  @media screen and (min-width: 1800px) {
+      .sidebar{
+          width: 10%;
+      }
+  }
+  
+  @media screen and (min-width: 700px) and (max-width:800px) {
+     .sidebar {
+         width: 20%;
+     }
+
+  }
